@@ -19,7 +19,7 @@ export default function NavBer() {
   return (
     <div className="px-[5%] bg-white py-5 ">
       <Navbar fluid rounded>
-        <NavbarBrand href="https://desisoftware">
+        <NavbarBrand href="https://desisoftware" className='mr-auto'>
           <Image src="/download.png" width={50} height={50}></Image>
         </NavbarBrand>
         <div className="flex md:order-2">
@@ -83,7 +83,7 @@ export default function NavBer() {
             </ul>
           </MegaMenuDropdown>
         </NavbarCollapse>
-        <div className='flex gap-4'>
+        <div className='flex gap-4 px-10'>
         <FaFacebookSquare  className='text-blue-500 text-3xl'/>
         <FaYoutube  className='text-white bg-red-500 p-[5px] rounded-[3px] text-[30px]'/>
 
@@ -94,7 +94,7 @@ export default function NavBer() {
             </p>
           </div>
         </div>
-        <div className="flex gap-3 justify-center items-center">
+        <div className="flex gap-3 justify-center items-center ">
           <Button className="bg-blue-500">
             Login
             <FaArrowRightToBracket className="ml-2 h-5 w-5" />
