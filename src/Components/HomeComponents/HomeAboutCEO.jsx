@@ -9,8 +9,8 @@ const HomeAboutCEO = () => {
       <div className="flex justify-center items-center mt-10 lg:mt-0">
         <Image
           src="https://api.bangladeshisoftware.com/a69633373c9-333256923_492526116224473_1720590606785456778_n.jpg"
-          width={250}
-          height={250}
+          width={400}
+          height={400}
           alt="img"
         ></Image>
       </div>

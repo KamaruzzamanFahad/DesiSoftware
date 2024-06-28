@@ -60,7 +60,7 @@ export default function Layout({ children }) {
                     <Link href={"/dashboard/allwithdraw"}>
                       <div
                         className={`flex items-center gap-2 py-1 rounded-md px-2 ${
-                          pathname === "/allwithdraw"
+                          pathname === "/dashboard/allwithdraw"
                             ? "text-white bg-blue-500"
                             : "text-black"
                         }`}
