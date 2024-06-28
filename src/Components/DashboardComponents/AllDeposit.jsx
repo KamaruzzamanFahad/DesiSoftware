@@ -78,7 +78,7 @@ const AllDeposit = () => {
             </TableCell>
             <TableCell>
                 <div className='flex gap-3'>
-                    <button className='bg-green-600 text-white p-1 px-3 rounded-md'>Arove</button>
+                    <button className='bg-green-600 text-white p-1 px-3 rounded-md'>Aprove</button>
                     <button className='bg-red-500 text-white p-1 px-3 rounded-md'>Delet</button>
                 </div>
             </TableCell>

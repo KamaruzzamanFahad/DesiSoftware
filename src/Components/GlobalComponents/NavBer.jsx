@@ -17,7 +17,7 @@ import { FaFacebookSquare } from "react-icons/fa";
 
 export default function NavBer() {
   return (
-    <div className="px-[5%] bg-white py-5 ">
+    <div className="px-[5%] bg-white py-3 ">
       <Navbar fluid rounded>
         <NavbarBrand href="https://desisoftware" className='mr-auto'>
           <Image src="/download.png" width={50} height={50}></Image>
