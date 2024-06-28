@@ -22,10 +22,6 @@ export default function NavBer() {
         <NavbarBrand href="https://desisoftware" className='mr-auto'>
           <Image src="/download.png" width={50} height={50}></Image>
         </NavbarBrand>
-        <div className="flex md:order-2">
-          <Button>Get started</Button>
-          <NavbarToggle />
-        </div>
         <NavbarCollapse>
           <NavbarLink href="#" active>
             Home

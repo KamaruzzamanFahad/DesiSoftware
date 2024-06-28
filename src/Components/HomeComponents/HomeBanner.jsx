@@ -19,7 +19,7 @@ const HomeBanner = () => {
           </Button>
         </div>
       </div>
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center mt-10 lg:mt-0">
         <Image
           src="https://res.cloudinary.com/dkxbkydf5/image/upload/v1686838005/robot_dvysuh.png"
           width={250}
